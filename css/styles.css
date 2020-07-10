@@ -1,3 +1,58 @@
+/* цвет фона #FFFFFF; */
+/* основной цвет текста #757575;*/
+/* цвет заголовков #212121; */
+/* цвет при наведении #2196F3; */
+/* цвет текста на банере #FFFFFF; */
+/* цвет иконок #AFB1B8; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --hover-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
 ul {
   list-style: none;
+}
+
+/* шапка сайта */
+.web-tittle {
+  color: var(--title-color);
+}
+.web {
+  color: var(--hover-color);
+}
+.nav-container .link {
+  color: var(--title-color);
+}
+
+.nav-container .link:hover,
+.nav-container .link:focus {
+  color: var(--hover-color);
+}
+
+.contacts-conteiner .contact {
+  color: var(--primary-text-color);
+}
+
+.contacts-conteiner .contact:hover,
+.contacts-conteiner .contact:focus {
+  color: var(--hover-color);
+}
+
+/* секции */
+.section-titlle {
+  color: var(--title-color);
+}
+
+.section .element {
+  color: var(--title-color);
+}
+.title {
+  color: #ffffff;
 }
